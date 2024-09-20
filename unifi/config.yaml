@@ -14,7 +14,7 @@ init: false
 backup: cold
 map:
   - backup:rw
-image: "ghcr.io/peyton/{arch}-hassio-addon-unifi:{version}"
+image: "ghcr.io/peyton/hassio-addon-unifi-{arch}"
 ports:
   161/udp: null
   1900/udp: null
