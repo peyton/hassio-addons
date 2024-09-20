@@ -1,7 +1,7 @@
 ---
 
 name: UniFi Network Application
-version: "8.4.62"
+version: "8.4.63"
 slug: unifi-peyton
 description: Manage your UniFi network using a web browser
 url: https://github.com/peyton/hassio-addons/tree/master/unifi
@@ -11,7 +11,8 @@ arch:
   - aarch64
   - amd64
 init: false
-backup: cold
+backup_exclude:
+  - "*" # Backup size too large! Rely on auto backup.
 map:
   - backup:rw
 image: "ghcr.io/peyton/hassio-addon-unifi-{arch}"

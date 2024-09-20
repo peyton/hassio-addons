@@ -3,6 +3,13 @@
 The UniFi Network Application allows you to manage your UniFi network
 using a web browser.
 
+## TODO
+- [ ] Update documentation for installation and usage instructions.
+- [ ] Test the add-on on different versions of Home Assistant.
+- [ ] Add support for additional features in the UniFi Network Application.
+- [ ] Improve error handling and logging for better debugging capabilities.
+- [ ] Consider adding a feature to automatically update the UniFi firmware through the add-on.
+
 
 
 ## About
