@@ -1,7 +1,7 @@
 ---
 
 name: UniFi Network Application
-version: "8.4.63"
+version: "8.5.5"
 slug: unifi-peyton
 description: Manage your UniFi network using a web browser
 url: https://github.com/peyton/hassio-addons/tree/master/unifi

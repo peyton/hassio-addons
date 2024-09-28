@@ -17,7 +17,7 @@ RUN \
         openjdk-17-jre-headless=17* \
     \
     && curl -J -L -o /tmp/unifi.deb \
-        "https://dl.ui.com/unifi/8.4.62/unifi_sysvinit_all.deb" \
+        "https://fw-download.ubnt.com/data/unifi-controller/d1b0-debian-8.5.5-a44ad5f3-5e28-489c-86f7-6c146799f611.deb" \
     \
     && dpkg --install /tmp/unifi.deb \
     && apt-get clean \
