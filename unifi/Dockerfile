@@ -17,7 +17,7 @@ RUN \
         openjdk-17-jre-headless=17* \
     \
     && curl -J -L -o /tmp/unifi.deb \
-        "https://fw-download.ubnt.com/data/unifi-controller/d1b0-debian-8.5.5-a44ad5f3-5e28-489c-86f7-6c146799f611.deb" \
+        "https://fw-download.ubnt.com/data/unifi-controller/70ce-debian-8.5.6-51f80855-dee4-4cbd-a771-225bbd9f32f2.deb" \
     \
     && dpkg --install /tmp/unifi.deb \
     && apt-get clean \
