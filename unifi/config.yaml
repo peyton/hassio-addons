@@ -1,7 +1,7 @@
 ---
 
 name: UniFi Network Application (Early Access)
-version: "9.0.92"
+version: "9.0.101"
 slug: unifi-peyton
 description: Manage your UniFi network using a web browser
 url: https://github.com/peyton/hassio-addons/tree/master/unifi
